@@ -1,0 +1,10 @@
+export async function main(ns) {
+	var target = ns.args[0];
+	var homeServer = "home";
+	var cracks = {
+		"BruteSSH.exe": ns.brutessh,
+		"FTPCrack.exe": ns.ftpcrack,
+		"relaySMTP.exe": ns.relaysmtp,
+		"HTTPWorm.exe": ns.httpworm,
+		"SQLInject.exe": ns.sqlinject
+	};
